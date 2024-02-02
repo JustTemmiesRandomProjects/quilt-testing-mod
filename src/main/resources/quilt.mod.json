@@ -1,0 +1,40 @@
+{
+	"schema_version": 1,
+	"quilt_loader": {
+		"group": "${group}",
+		"id": "example_mod",
+		"version": "${version}",
+		"metadata": {
+			"name": "Example Mod",
+			"description": "Whoops, seems like i forgot to change the description",
+			"contributors": {
+				"Your name here": "Twig"
+			},
+			"contact": {
+				"homepage": "https://github.com/JustTemmie",
+				"issues": "https://github.com/JustTemmiesRandomProjects/random-quilt-mod/issues",
+				"sources": "https://github.com/JustTemmiesRandomProjects/random-quilt-mod"
+			},
+			"icon": "assets/example_mod/icon.png"
+		},
+		"intermediate_mappings": "net.fabricmc:intermediary",
+		"entrypoints": {
+			"init": "mom.beaver.example_mod.ExampleMod"
+		},
+		"depends": [
+			{
+				"id": "quilt_loader",
+				"versions": ">=0.19.1"
+			},
+			{
+				"id": "quilted_fabric_api",
+				"versions": ">=7.0.2"
+			},
+			{
+				"id": "minecraft",
+				"versions": ">=1.20"
+			}
+		]
+	},
+	"mixin": "example_mod.mixins.json"
+}
