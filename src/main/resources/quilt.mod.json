@@ -2,10 +2,10 @@
 	"schema_version": 1,
 	"quilt_loader": {
 		"group": "${group}",
-		"id": "example_mod",
+		"id": "first_mod",
 		"version": "${version}",
 		"metadata": {
-			"name": "Example Mod",
+			"name": "First Mod",
 			"description": "Whoops, seems like i forgot to change the description",
 			"contributors": {
 				"Your name here": "Twig"
@@ -19,7 +19,7 @@
 		},
 		"intermediate_mappings": "net.fabricmc:intermediary",
 		"entrypoints": {
-			"init": "mom.beaver.example_mod.ExampleMod"
+			"init": "mom.beaver.first_mod.FirstMod"
 		},
 		"depends": [
 			{
@@ -36,5 +36,5 @@
 			}
 		]
 	},
-	"mixin": "example_mod.mixins.json"
+	"mixin": "first_mod.mixins.json"
 }

@@ -1,6 +1,6 @@
-package mom.beaver.example_mod.mixin;
+package mom.beaver.first_mod.mixin;
 
-import mom.beaver.example_mod.ExampleMod;
+import mom.beaver.first_mod.FirstMod;
 import net.minecraft.client.gui.screen.TitleScreen;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.injection.At;
@@ -11,6 +11,6 @@ import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 public class TitleScreenMixin {
 	@Inject(method = "init", at = @At("TAIL"))
 	public void onInit(CallbackInfo ci) {
-		ExampleMod.LOGGER.info("This line was printed by Temmie :3");
+		FirstMod.LOGGER.info("This line was printed by Temmie :3");
 	}
 }

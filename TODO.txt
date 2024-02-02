@@ -1,0 +1,7 @@
+launch star(s) :3
+starbits
+luma
+powerups (bee, cloud), in armour form
+pullstars
+whittles
+gambling (ask the bear)
